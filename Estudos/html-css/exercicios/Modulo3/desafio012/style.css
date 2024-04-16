@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+:root {
+    --fonte-texto: "Caveat", cursive;
+    --fonte-destaque: ;
+}
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+header>h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 10vw;
+}
+
+header>p {
+    padding-bottom: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main { 
+    background-color: white;
+}
+main > article > section > p {
+    font-family: var(--fonte-texto);
+}
+
+#p1, #p3, #p4, #p6, #p7 {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+#p2, #p5 {
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    width: 150px;
+}
+
+section {
+    padding: 10px;
+    font-size: 5vw;
+}
+
+footer {
+    margin: 0;
+}
+footer>p {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
